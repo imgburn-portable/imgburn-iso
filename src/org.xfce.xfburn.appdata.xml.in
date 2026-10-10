@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2014 Eric Koegel <eric.koegel@gmail.com> and Simon Steinbeiss <simon@xfce.org> -->
+<component type="desktop-application">
+  <id type="desktop">org.xfce.xfburn</id>
+  <launchable type="desktop-id">xfburn.desktop</launchable>
+  <metadata_license>CC-BY-3.0</metadata_license>
+  <project_license>GPL-2.0+</project_license>
+  <name>Xfburn</name>
+  <summary>A simple CD burning tool</summary>
+
+  <description>
+    <p>Xfburn is a simple CD/DVD burning tool based on libburnia libraries.
+        It can blank CD/DVD(-RW)s, burn and create iso images, audio CDs, as
+        well as burn personal compositions of data to either CD or DVD. It is
+        stable and under ongoing development.
+    </p>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://docs.xfce.org/_media/apps/xfburn-0.4.1.jpg</image>
+    </screenshot>
+  </screenshots>
+
+  <categories>
+    <category>Multimedia</category>
+  </categories>
+
+  <url type="homepage">https://docs.xfce.org/apps/xfburn/start</url>
+  <url type="bugtracker">https://gitlab.xfce.org/apps/xfburn/</url>
+
+  <update_contact>xfce4-dev@xfce.org</update_contact>
+
+  <provides>
+    <binary>xfburn</binary>
+  </provides>
+  <translation type="gettext">Xfburn</translation>
+  <content_rating type="oars-1.0" />
+</component>

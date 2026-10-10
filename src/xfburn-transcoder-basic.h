@@ -1,0 +1,36 @@
+/*
+ *  Copyright (c) 2005-2006 Jean-François Wauthy (pollux@xfce.org)
+ *  Copyright (c) 2008      David Mohr (david@mcbf.net)
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Library General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program; if not, write to the Free Software
+ *  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+ */
+
+#ifndef __XFBURN_TRANSCODER_BASIC_H__
+#define __XFBURN_TRANSCODER_BASIC_H__
+
+#include <gtk/gtk.h>
+
+#include "xfburn-transcoder.h"
+
+G_BEGIN_DECLS
+
+#define XFBURN_TYPE_TRANSCODER_BASIC (xfburn_transcoder_basic_get_type ())
+G_DECLARE_FINAL_TYPE (XfburnTranscoderBasic, xfburn_transcoder_basic, XFBURN, TRANSCODER_BASIC, GObject)
+
+GObject *xfburn_transcoder_basic_new (void);
+
+G_END_DECLS
+
+#endif /* XFBURN_TRANSCODER_BASIC_H */

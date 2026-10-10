@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE toolbars SYSTEM "toolbars.dtd">
+
+<toolbars>
+  <toolbar name="main" style="both">
+    <toolitem id="new-data-composition" />
+    <toolitem id="new-audio-composition" />
+
+    <separator />
+
+    <toolitem id="blank-disc" />
+
+    <toolitem id="burn-image" />
+    <separator />
+
+    <toolitem id="refresh" />
+  </toolbar>
+</toolbars>
